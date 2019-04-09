@@ -1,0 +1,7 @@
+D:\QLBH\UnitTest_Login\bin\Debug\UnitTest_Login.dll
+D:\QLBH\UnitTest_Login\bin\Debug\UnitTest_Login.pdb
+D:\QLBH\UnitTest_Login\bin\Debug\QLBH.exe
+D:\QLBH\UnitTest_Login\bin\Debug\QLBH.pdb
+D:\QLBH\UnitTest_Login\obj\Debug\UnitTest_Login.csprojResolveAssemblyReference.cache
+D:\QLBH\UnitTest_Login\obj\Debug\UnitTest_Login.dll
+D:\QLBH\UnitTest_Login\obj\Debug\UnitTest_Login.pdb

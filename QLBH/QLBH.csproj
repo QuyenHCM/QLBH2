@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="checkLogin.cs" />
     <Compile Include="Classes\Connection.cs" />
     <Compile Include="Classes\Data.cs" />
     <Compile Include="Classes\DoanhThu.cs" />

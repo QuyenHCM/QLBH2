@@ -31,6 +31,11 @@ namespace QLBH
             TextBox[] txt = new TextBox[] { Login_ID_TextBox, Login_Pass_TextBox };
             conn = new Connection();
             conn.User(out id, out pass, out save);
+            string kt = checkLogin.ktdangnhap(id, pass);
+            if (kt == "1") { MessageBox.Show("Bạn vui lòng nhập thông tin tài khoản và mật khẩu"); }
+            else if (kt == "2") { MessageBox.Show("Bạn chưa nhập tên đăng nhập"); }
+            else if (kt == "3") { MessageBox.Show("Bạn chưa nhập mật khẩu"); }
+            else if (kt=="0")
             textboxs = new Test(txt, s);
             textboxs.Show_All();
             if (save == "1")

@@ -82,5 +82,7 @@ namespace QLBH
                     data.TimKiem_PramiryKey("[KHACHHANG]", "MaKH", Customer_Search_TextBox.Text.ToString(), Customer_DataGridView);
             }
         }
+
+        
     }
 }

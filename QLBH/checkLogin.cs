@@ -14,13 +14,13 @@ namespace QLBH
     {
         public static string ktdangnhap(string id, string pass)
         {
-            if((id=="") && (pass =="")){return("1");}
+            if ((id == "") && (pass == "")) { return ("1"); }
             else
-            if((id =="")){return("2");}
-            else
-            if(pass==""){return("3");}
+                if ((id == "")) { return ("2"); }
+                else
+                    if (pass == "") { return ("3"); }
 
-            else return "0";
+                    else return "0";
         }
     }
 }

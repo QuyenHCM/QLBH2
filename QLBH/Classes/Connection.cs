@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace QLBH
 {
-    class Connection
+    public class Connection
     {
         // Truyền Tải Dử Liệu
         private SqlConnection connection;
@@ -72,7 +72,7 @@ namespace QLBH
         {
 
             this.OpenSQL();
-            adapter = new SqlDataAdapter("SELECT * FROM "+_table+" WHERE "+key+"="+giatri, connection);
+            adapter = new SqlDataAdapter("SELECT * FROM "+_table+" WHERE "+key+" = '"+giatri+"'", connection);
             table = new DataTable();
             table.Clear();
             adapter.Fill(table);
@@ -178,7 +178,9 @@ namespace QLBH
         }
         public void TimKiem_PramiryKey(string table, string pamirykey, string giatri,DataGridView grid)
         {
-            string lenh = "SELECT * FROM " + table + " WHERE " + pamirykey + "=" + giatri;
+
+            string lenh = "SELECT * FROM " + table + " WHERE " + pamirykey + " = '" + giatri +"'";
+            
             this.KetNoiDataGridView(lenh, grid);
              if (grid.RowCount < 2) // datagridview dòng nhỏ hơn 2 trong form tìm kiếm thì ko tìm được
                  MessageBox.Show("Không Tìm Thấy", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);

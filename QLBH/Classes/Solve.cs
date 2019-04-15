@@ -36,7 +36,8 @@ namespace QLBH
         public void Them()
         {
             data = new Data(null);
-            data.THEM = true; data.SUA = false;
+            data.THEM = true; 
+            data.SUA = false;
             this.Boxing();
         }
         public void TimKiem_PramiryKey(string table, string pramirykey, string giatri, DataGridView grid)

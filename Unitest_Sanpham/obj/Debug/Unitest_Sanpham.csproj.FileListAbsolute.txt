@@ -1,0 +1,5 @@
+D:\QLBH\Unitest_Sanpham\bin\Debug\Unitest_Sanpham.dll
+D:\QLBH\Unitest_Sanpham\bin\Debug\Unitest_Sanpham.pdb
+D:\QLBH\Unitest_Sanpham\bin\Debug\QLBH.exe
+D:\QLBH\Unitest_Sanpham\obj\Debug\Unitest_Sanpham.dll
+D:\QLBH\Unitest_Sanpham\obj\Debug\Unitest_Sanpham.pdb

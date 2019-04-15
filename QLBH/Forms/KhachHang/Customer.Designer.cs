@@ -71,6 +71,7 @@
             this.Customer_Search_TextBox.Name = "Customer_Search_TextBox";
             this.Customer_Search_TextBox.Size = new System.Drawing.Size(216, 23);
             this.Customer_Search_TextBox.TabIndex = 2;
+//            this.Customer_Search_TextBox.TextChanged += new System.EventHandler(this.Customer_Search_TextBox_TextChanged);
             this.Customer_Search_TextBox.Enter += new System.EventHandler(this.Customer_Search_TextBox_Enter);
             this.Customer_Search_TextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Customer_Search_TextBox_KeyDown);
             this.Customer_Search_TextBox.Leave += new System.EventHandler(this.Customer_Search_TextBox_Leave);

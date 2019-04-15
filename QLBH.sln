@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLBH", "QLBH\QLBH.csproj", "{F45AD03D-2E48-470B-B384-6EA8C817D920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_Login", "UnitTest_Login\UnitTest_Login.csproj", "{84634BA2-A25D-48F7-882D-2069F18AB4A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest_Login\UnitTest.csproj", "{84634BA2-A25D-48F7-882D-2069F18AB4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

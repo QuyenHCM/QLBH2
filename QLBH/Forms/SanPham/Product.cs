@@ -31,6 +31,7 @@ namespace QLBH
 
         private void Product_Search_Button_Click(object sender, EventArgs e)
         {
+
             if (textbox.Check() && textbox.Test_Int(Product_Search_TextBox.Text))
                 data.TimKiem_PramiryKey("[SANPHAM]", "MaSP", Product_Search_TextBox.Text.ToString(), Product_DataGridView);
         }

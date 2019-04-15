@@ -44,7 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestCHITIETHOADON\CheckAddCHITIETHOADON.cs" />
+    <Compile Include="TestCHITIETHOADON\CheckDeleteCHITIETHOADON.cs" />
+    <Compile Include="TestCHITIETHOADON\CheckSearchCHITIETHOADON.cs" />
+    <Compile Include="TestCHITIETHOADON\CheckUpdateCHITIETHOADON.cs" />
+    <Compile Include="TestHoadon\CheckAddHD.cs" />
+    <Compile Include="TestHoadon\CheckDeleteHD.cs" />
+    <Compile Include="TestHoadon\CheckSearchHD.cs" />
+    <Compile Include="TestHoadon\CheckUpdateHDcs.cs" />
+    <Compile Include="TestKhachHang\CheckDeleteKH.cs" />
+    <Compile Include="TestKhachHang\CheckSearchKH.cs" />
+    <Compile Include="TestKhachHang\CheckUpdateKH.cs" />
+    <Compile Include="TestSanPham\CheckDeleteSP.cs" />
     <Compile Include="checkLogin.cs" />
+    <Compile Include="TestSanPham\CheckSearchSP.cs" />
+    <Compile Include="TestSanPham\CheckUpdateSP.cs" />
+    <Compile Include="TestSanPham\CheckAddSP.cs" />
     <Compile Include="Classes\Connection.cs" />
     <Compile Include="Classes\Data.cs" />
     <Compile Include="Classes\DoanhThu.cs" />
@@ -166,6 +181,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TestKhachHang\CheckAddKH.cs" />
     <EmbeddedResource Include="Forms\HoaDon\Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
